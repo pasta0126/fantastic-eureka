@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f530a7c1-ec8c-4093-bf84-fc61c392c422": {
+      "ProjectGuid": "f530a7c1-ec8c-4093-bf84-fc61c392c422",
+      "DisplayName": "ApiTest.Api",
+      "ColorIndex": 0
+    },
+    "f122f2ac-542e-4509-9347-cbc79721d5be": {
+      "ProjectGuid": "f122f2ac-542e-4509-9347-cbc79721d5be",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
