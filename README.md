@@ -16,6 +16,15 @@ Con el proyecto seprovee una colección de Postman con ejemplos de datos y una ca
 
 Ejecutar el proyecto ApiTest.Api
 
+## Consola 
+
 ```shell
 dotnet run
 ```
+Acceder a http://localhost:5000
+
+## IIS
+
+Una vez arrancado se levantará la Api
+
+también se puede acceder a través de http://localhost:5001
