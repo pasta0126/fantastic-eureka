@@ -7,7 +7,7 @@ namespace ApiTest.Repositories
 {
     public interface IActividadRepository
     {
-        Task<IEnumerable<ActividadModel>> GetAllAlumnos();
+        Task<IEnumerable<ActividadModel>> GetAllActividades();
         Task<ActividadModel> GetActividad(Guid id);
         Task<ActividadModel> Create(ActividadModel model);
         Task<bool> Update(ActividadModel todo);

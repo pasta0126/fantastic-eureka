@@ -31,7 +31,7 @@ namespace ApiTest.Repositories
             return result.IsAcknowledged && result.DeletedCount > 0;
         }
 
-        public async Task<IEnumerable<ActividadModel>> GetAllAlumnos()
+        public async Task<IEnumerable<ActividadModel>> GetAllActividades()
         {
             return await _context.Actividades.Find(_ => true).ToListAsync();
         }

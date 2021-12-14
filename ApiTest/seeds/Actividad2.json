@@ -1,0 +1,42 @@
+{
+  "nombre": "Actividad 2",
+  "descripcion": "Nostrum officiis unde ut architecto provident.",
+  "ejercicios": [
+    {
+      "id": "643b036f-0a78-54ef-a732-48fc9c6ce343",
+      "nombre": "Ejercicio 1",
+      "descripcion": "In qui iste rerum quo.",
+      "preguntas": [
+        {
+          "id": "0bffb03e-9635-508e-b2b4-02a90a538bce",
+          "nombre": "Pregunta 11",
+          "descripcion": "Et modi quidem reiciendis ex nihil perspiciatis.",
+          "respuestaEsperada": "11"
+        },
+        {
+          "id": "b8b4488d-d2e3-5fc4-8495-fcb5503f64c4",
+          "nombre": "Pregunta 12",
+          "descripcion": "Ratione rerum nam rerum quia ducimus quo aspernatur est dolore.",
+          "respuestaEsperada": "12"
+        }
+      ]
+    },
+    {
+      "id": "5222dfdd-0745-5162-9c5d-e6e74656150c",
+      "nombre": "Ejercicio 2",
+      "descripcion": "Corrupti labore asperiores rem omnis sit molestiae.",
+      "preguntas": [
+        {
+          "id": "8ecccee7-3508-5e0e-99b0-b90c430a61f9",
+          "nombre": "Pregunta 22",
+          "descripcion": "Recusandae dolorem consequatur eligendi veniam fugiat.",
+          "respuestaEsperada": "22"
+        }
+      ]
+    }
+  ],
+  "competencia": 2,
+  "tipo": 2,
+  "nota": 10,
+  "vecesRealizadas": 0
+}

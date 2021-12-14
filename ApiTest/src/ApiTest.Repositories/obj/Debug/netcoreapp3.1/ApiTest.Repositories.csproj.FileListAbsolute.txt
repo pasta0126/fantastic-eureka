@@ -1,0 +1,13 @@
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\bin\Debug\netcoreapp3.1\ApiTest.Repositories.deps.json
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\bin\Debug\netcoreapp3.1\ApiTest.Repositories.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\bin\Debug\netcoreapp3.1\ApiTest.Repositories.pdb
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\bin\Debug\netcoreapp3.1\ApiTest.Models.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\bin\Debug\netcoreapp3.1\ApiTest.Models.pdb
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.csproj.AssemblyReference.cache
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.AssemblyInfoInputs.cache
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.AssemblyInfo.cs
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.csproj.CoreCompileInputs.cache
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.csproj.CopyComplete
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.pdb

@@ -40,3 +40,5 @@ D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\Mo
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Models.dll
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Models.pdb
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.csproj.AssemblyReference.cache
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Repositories.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Repositories.pdb

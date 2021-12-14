@@ -1,0 +1,54 @@
+{
+  "nombre": "Actividad 1",
+  "descripcion": "Quod nihil quas sequi.",
+  "ejercicios": [
+    {
+      "id": "ed0b0564-e817-557d-a852-88bea8f46774",
+      "nombre": "Ejercicio 1",
+      "descripcion": "Adipisci ut voluptas.",
+      "preguntas": [
+        {
+          "id": "20e7cda2-7b0f-5dc3-a03b-6bb5c52cf30b",
+          "nombre": "Pregunta 1",
+          "descripcion": "Voluptatem aliquid nobis dolorem magni.",
+          "respuestaEsperada": "1"
+        },
+        {
+          "id": "da8213fb-2799-545a-bc16-a16b47c0d99f",
+          "nombre": "Pregunta 2",
+          "descripcion": "Nobis et quia perspiciatis labore voluptas dolor ut cupiditate aut.",
+          "respuestaEsperada": "2"
+        }
+      ]
+    },
+    {
+      "id": "4635fd0d-4713-5d0b-ace4-18541f6bb493",
+      "nombre": "Ejercicio 2",
+      "descripcion": "Adipisci ut voluptas.",
+      "preguntas": [
+        {
+          "id": "ea24a7bc-c1f4-5164-9204-d466600f128a",
+          "nombre": "Pregunta A",
+          "descripcion": "Qui ducimus sint.",
+          "respuestaEsperada": "A"
+        },
+        {
+          "id": "84831a34-839d-5295-b27e-a91c570c8fb0",
+          "nombre": "Pregunta B",
+          "descripcion": "Repellat aut exercitationem consequatur qui culpa quia sint quis quidem.",
+          "respuestaEsperada": "B"
+        },
+        {
+          "id": "ec8ed341-96ab-5ecc-96a7-7a16748a113b",
+          "nombre": "Pregunta C",
+          "descripcion": "Facere quo et sapiente inventore.",
+          "respuestaEsperada": "C"
+        }
+      ]
+    }
+  ],
+  "competencia": 1,
+  "tipo": 0,
+  "nota": 10,
+  "vecesRealizadas": 0
+}

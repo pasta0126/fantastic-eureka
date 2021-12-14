@@ -7,3 +7,4 @@ D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.csproj.CoreCompileInputs.cache
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.dll
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.pdb
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.csproj.AssemblyReference.cache

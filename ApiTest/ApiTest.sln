@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTest.Api", "src\ApiTest.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F122F2AC-542E-4509-9347-CBC79721D5BE}"
 	ProjectSection(SolutionItems) = preProject
+		ApiTest.postman_collection.json = ApiTest.postman_collection.json
 		docker-compose.yml = docker-compose.yml
 		..\README.md = ..\README.md
 	EndProjectSection
@@ -15,9 +16,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTest.Models", "src\ApiTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTest.Services", "src\ApiTest.Services\ApiTest.Services.csproj", "{27C91D18-98B3-46CB-9422-0AC7274A533E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTest.Controllers", "src\ApiTest.Controllers\ApiTest.Controllers.csproj", "{725B09E7-2339-41EF-817C-11BF37E4EE6C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTest.Repositories", "src\ApiTest.Repositories\ApiTest.Repositories.csproj", "{F0325462-2679-4196-B760-2D6B720F2813}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "seeds", "seeds", "{812138D2-E861-4723-AC0B-57D7F2A7177A}"
+	ProjectSection(SolutionItems) = preProject
+		seeds\Actividad1.json = seeds\Actividad1.json
+		seeds\Actividad2.json = seeds\Actividad2.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +42,6 @@ Global
 		{27C91D18-98B3-46CB-9422-0AC7274A533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C91D18-98B3-46CB-9422-0AC7274A533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C91D18-98B3-46CB-9422-0AC7274A533E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{725B09E7-2339-41EF-817C-11BF37E4EE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{725B09E7-2339-41EF-817C-11BF37E4EE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{725B09E7-2339-41EF-817C-11BF37E4EE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{725B09E7-2339-41EF-817C-11BF37E4EE6C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0325462-2679-4196-B760-2D6B720F2813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F0325462-2679-4196-B760-2D6B720F2813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0325462-2679-4196-B760-2D6B720F2813}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,7 +51,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{725B09E7-2339-41EF-817C-11BF37E4EE6C} = {F122F2AC-542E-4509-9347-CBC79721D5BE}
+		{812138D2-E861-4723-AC0B-57D7F2A7177A} = {F122F2AC-542E-4509-9347-CBC79721D5BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C557AC7-A9CE-4D3D-B2D1-530044022117}
