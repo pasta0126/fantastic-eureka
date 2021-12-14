@@ -28,9 +28,14 @@
     },
     "97bf6742-a14e-4e6b-b599-ca0137293328": {
       "ProjectGuid": "97bf6742-a14e-4e6b-b599-ca0137293328",
-      "DisplayName": "ApiTest.Repository",
+      "DisplayName": "ApiTest.Repositories",
       "ColorIndex": 4
+    },
+    "725b09e7-2339-41ef-817c-11bf37e4ee6c": {
+      "ProjectGuid": "725b09e7-2339-41ef-817c-11bf37e4ee6c",
+      "DisplayName": "ApiTest.Controllers",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }

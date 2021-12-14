@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lvbY258/4jr6Am3q3WcT7u66UNa15c4PxAHyCC43Tvgkij4mbBWY0v/8XGummgtsnjyX4O6/3tIiwSWVxPjYEg==",
+  "dgSpecHash": "X99wyLQHvy+8ehqQduL05P1g7XHMWkkdKVTBlKjbYSdmhyNk3AFgR8yRByaqK1q8QqgQUmNpizKFYMOh/dhupQ==",
   "success": true,
-  "projectFilePath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repository\\ApiTest.Repository.csproj",
+  "projectFilePath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repositories\\ApiTest.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pasta0126\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\pasta0126\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",

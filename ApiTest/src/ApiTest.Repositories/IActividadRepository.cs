@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ApiTest.Repository
+namespace ApiTest.Repositories
 {
     public interface IActividadRepository
     {

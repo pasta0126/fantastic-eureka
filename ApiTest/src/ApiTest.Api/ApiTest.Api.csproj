@@ -11,7 +11,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\ApiTest.Models\ApiTest.Models.csproj" />
-	  <ProjectReference Include="..\ApiTest.Repository\ApiTest.Repository.csproj" />
+	  <ProjectReference Include="..\ApiTest.Repositories\ApiTest.Repositories.csproj" />
 	</ItemGroup>
 
 

@@ -1,6 +1,6 @@
 using ApiTest.Models.Config;
 using ApiTest.Models.Context;
-using ApiTest.Repository;
+using ApiTest.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

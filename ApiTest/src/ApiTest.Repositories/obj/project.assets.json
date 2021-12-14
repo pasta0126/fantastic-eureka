@@ -412,11 +412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repository\\ApiTest.Repository.csproj",
-      "projectName": "ApiTest.Repository",
-      "projectPath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repository\\ApiTest.Repository.csproj",
+      "projectUniqueName": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repositories\\ApiTest.Repositories.csproj",
+      "projectName": "ApiTest.Repositories",
+      "projectPath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repositories\\ApiTest.Repositories.csproj",
       "packagesPath": "C:\\Users\\pasta0126\\.nuget\\packages\\",
-      "outputPath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repository\\obj\\",
+      "outputPath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pasta0126\\AppData\\Roaming\\NuGet\\NuGet.Config",
