@@ -1,9 +1,21 @@
 # fantastic-eureka
 
-## Run application
+## Entorno
 
-1. Run docker compose file to start the MongoDB
+### Instalación
+
+1. Instalar MongoDB en local o en un Docker
+2. Crear la BBDD "ApiTest"
+3. Crear las colecciones "Alumnos" y "Actividades"
+
+### Datos iniciales
+
+Con el proyecto seprovee una colección de Postman con ejemplos de datos y una carpeta "seeds" con diferentes juegos de datos.
+
+## Inico
+
+Ejecutar el proyecto ApiTest.Api
 
 ```shell
-docker-compose up -d
+dotnet run
 ```
