@@ -35,7 +35,22 @@
       "ProjectGuid": "725b09e7-2339-41ef-817c-11bf37e4ee6c",
       "DisplayName": "ApiTest.Controllers",
       "ColorIndex": 5
+    },
+    "f559a6e6-32d4-41e4-87b7-24ac74b0067d": {
+      "ProjectGuid": "f559a6e6-32d4-41e4-87b7-24ac74b0067d",
+      "DisplayName": "ApiTest.Controllers",
+      "ColorIndex": 6
+    },
+    "f0325462-2679-4196-b760-2d6b720f2813": {
+      "ProjectGuid": "f0325462-2679-4196-b760-2d6b720f2813",
+      "DisplayName": "ApiTest.Repositories",
+      "ColorIndex": 7
+    },
+    "812138d2-e861-4723-ac0b-57d7f2a7177a": {
+      "ProjectGuid": "812138d2-e861-4723-ac0b-57d7f2a7177a",
+      "DisplayName": "seeds",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 9
 }
