@@ -3,7 +3,7 @@ using MongoDB.Driver;
 
 namespace ApiTest.Models.Context
 {
-    public class ActividadContext
+    public class ActividadContext : IActividadContext
     {
         private readonly IMongoDatabase _db;
 

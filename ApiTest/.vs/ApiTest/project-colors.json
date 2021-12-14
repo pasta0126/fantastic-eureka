@@ -25,7 +25,12 @@
       "ProjectGuid": "27c91d18-98b3-46cb-9422-0ac7274a533e",
       "DisplayName": "ApiTest.Services",
       "ColorIndex": 3
+    },
+    "97bf6742-a14e-4e6b-b599-ca0137293328": {
+      "ProjectGuid": "97bf6742-a14e-4e6b-b599-ca0137293328",
+      "DisplayName": "ApiTest.Repository",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

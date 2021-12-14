@@ -236,6 +236,19 @@
         "runtime": {
           "bin/placeholder/ApiTest.Models.dll": {}
         }
+      },
+      "ApiTest.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ApiTest.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApiTest.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiTest.Repository.dll": {}
+        }
       }
     }
   },
@@ -595,11 +608,17 @@
       "type": "project",
       "path": "../ApiTest.Models/ApiTest.Models.csproj",
       "msbuildProject": "../ApiTest.Models/ApiTest.Models.csproj"
+    },
+    "ApiTest.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ApiTest.Repository/ApiTest.Repository.csproj",
+      "msbuildProject": "../ApiTest.Repository/ApiTest.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "ApiTest.Models >= 1.0.0",
+      "ApiTest.Repository >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -632,6 +651,9 @@
           "projectReferences": {
             "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Models\\ApiTest.Models.csproj": {
               "projectPath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Models\\ApiTest.Models.csproj"
+            },
+            "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repository\\ApiTest.Repository.csproj": {
+              "projectPath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Repository\\ApiTest.Repository.csproj"
             }
           }
         }

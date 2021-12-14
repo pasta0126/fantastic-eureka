@@ -11,6 +11,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\ApiTest.Models\ApiTest.Models.csproj" />
+	  <ProjectReference Include="..\ApiTest.Repository\ApiTest.Repository.csproj" />
 	</ItemGroup>
 
 

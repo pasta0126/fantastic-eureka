@@ -1,5 +1,6 @@
 using ApiTest.Models.Config;
 using ApiTest.Models.Context;
+using ApiTest.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,7 +24,13 @@ namespace ApiTest.Api
             var config = new ServerConfig();
             Configuration.Bind(config);
 
+            var alumnoContext = new AlumnoContext(config.MongoDB);
+            var alumnoRepo = new AlumnoRepository(alumnoContext);
+            services.AddSingleton<IAlumnoRepository>(alumnoRepo);
+
             var actividadContext = new ActividadContext(config.MongoDB);
+            var actividadRepo = new ActividadRepository(actividadContext);
+            services.AddSingleton<IActividadRepository>(actividadRepo);
 
             services.AddControllers();
 
