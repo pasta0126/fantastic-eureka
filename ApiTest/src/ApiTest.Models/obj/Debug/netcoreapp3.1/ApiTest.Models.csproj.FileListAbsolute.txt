@@ -1,0 +1,9 @@
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\bin\Debug\netcoreapp3.1\ApiTest.Models.deps.json
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\bin\Debug\netcoreapp3.1\ApiTest.Models.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\bin\Debug\netcoreapp3.1\ApiTest.Models.pdb
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.AssemblyInfoInputs.cache
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.AssemblyInfo.cs
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.csproj.CoreCompileInputs.cache
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Models\obj\Debug\netcoreapp3.1\ApiTest.Models.pdb

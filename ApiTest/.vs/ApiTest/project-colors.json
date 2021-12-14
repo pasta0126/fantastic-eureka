@@ -10,7 +10,22 @@
       "ProjectGuid": "f122f2ac-542e-4509-9347-cbc79721d5be",
       "DisplayName": "Solution Items",
       "ColorIndex": 1
+    },
+    "3a87e2f7-e499-46ea-835d-a9fa10bf98e9": {
+      "ProjectGuid": "3a87e2f7-e499-46ea-835d-a9fa10bf98e9",
+      "DisplayName": "ApiTest.Models",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "27c91d18-98b3-46cb-9422-0ac7274a533e": {
+      "ProjectGuid": "27c91d18-98b3-46cb-9422-0ac7274a533e",
+      "DisplayName": "ApiTest.Services",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

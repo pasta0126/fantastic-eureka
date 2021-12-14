@@ -1,5 +1,3 @@
-D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\appsettings.json
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Api.exe
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Api.deps.json
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Api.runtimeconfig.json
@@ -10,7 +8,6 @@ D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\Mi
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.csproj.AssemblyReference.cache
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.GeneratedMSBuildEditorConfig.editorconfig
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.AssemblyInfoInputs.cache
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.AssemblyInfo.cs
@@ -23,3 +20,23 @@ D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\Ap
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.dll
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.pdb
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.genruntimeconfig.cache
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\linux\native\libsnappy64.so
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\linux\native\libzstd.so
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\osx\native\libsnappy64.dylib
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\osx\native\libzstd.dylib
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Models.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\bin\Debug\netcoreapp3.1\ApiTest.Models.pdb
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Api\obj\Debug\netcoreapp3.1\ApiTest.Api.csproj.AssemblyReference.cache
