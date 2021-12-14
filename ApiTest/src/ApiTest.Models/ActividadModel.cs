@@ -16,7 +16,5 @@ namespace ApiTest.Models
         public List<EjercicioModel> Ejercicios { get; set; }
         public CompetenciaType Competencia { get; set; }
         public ActividadType Tipo { get; set; }
-        public int Nota { get; set; } // TODO: Max 10
-        public int? VecesRealizadas { get; set; }
     }
 }

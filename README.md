@@ -6,7 +6,7 @@
 
 1. Instalar MongoDB en local o en un Docker
 2. Crear la BBDD "ApiTest"
-3. Crear las colecciones "Alumnos" y "Actividades"
+3. Crear las colecciones "Alumnos", "Sesiones" y "Actividades"
 
 ### Datos iniciales
 
@@ -28,3 +28,7 @@ Acceder a http://localhost:5000
 Una vez arrancado se levantará la Api
 
 también se puede acceder a través de http://localhost:5001
+
+## Documentación
+
+Se ha documentado la Api com Swagger y con una colección de Postman

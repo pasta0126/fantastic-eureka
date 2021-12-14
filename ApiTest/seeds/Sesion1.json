@@ -1,0 +1,25 @@
+{
+  "id": "554aa91d-f271-54bb-9932-acf2316ed9ed",
+  "idAlumno": "29385a3d-7242-5d2d-ae9c-d8bf37d7f8c5",
+  "actividades": [
+    {
+      "idActividad": "c7de8362-1812-5652-965b-8cd2b46c5e89",
+      "competencia": 1,
+      "tipo": 0,
+      "respuestas": [
+        {
+          "idPregunta": "20e7cda2-7b0f-5dc3-a03b-6bb5c52cf30b",
+          "respuestaEsperada": "1",
+          "respuestaProporcionada": "1",
+          "isOk": true
+        },
+        {
+          "idPregunta": "da8213fb-2799-545a-bc16-a16b47c0d99f",
+          "respuestaEsperada": "2",
+          "respuestaProporcionada": "1",
+          "isOk": false
+        }
+      ]
+    }
+  ]
+}

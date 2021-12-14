@@ -11,13 +11,13 @@
           "id": "20e7cda2-7b0f-5dc3-a03b-6bb5c52cf30b",
           "nombre": "Pregunta 1",
           "descripcion": "Voluptatem aliquid nobis dolorem magni.",
-          "respuestaEsperada": "1"
+          "respuesta": "1"
         },
         {
           "id": "da8213fb-2799-545a-bc16-a16b47c0d99f",
           "nombre": "Pregunta 2",
           "descripcion": "Nobis et quia perspiciatis labore voluptas dolor ut cupiditate aut.",
-          "respuestaEsperada": "2"
+          "respuesta": "2"
         }
       ]
     },
@@ -30,25 +30,23 @@
           "id": "ea24a7bc-c1f4-5164-9204-d466600f128a",
           "nombre": "Pregunta A",
           "descripcion": "Qui ducimus sint.",
-          "respuestaEsperada": "A"
+          "respuesta": "A"
         },
         {
           "id": "84831a34-839d-5295-b27e-a91c570c8fb0",
           "nombre": "Pregunta B",
           "descripcion": "Repellat aut exercitationem consequatur qui culpa quia sint quis quidem.",
-          "respuestaEsperada": "B"
+          "respuesta": "B"
         },
         {
           "id": "ec8ed341-96ab-5ecc-96a7-7a16748a113b",
           "nombre": "Pregunta C",
           "descripcion": "Facere quo et sapiente inventore.",
-          "respuestaEsperada": "C"
+          "respuesta": "C"
         }
       ]
     }
   ],
   "competencia": 1,
-  "tipo": 0,
-  "nota": 10,
-  "vecesRealizadas": 0
+  "tipo": 0
 }

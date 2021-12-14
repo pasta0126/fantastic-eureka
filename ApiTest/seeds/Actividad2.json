@@ -11,13 +11,13 @@
           "id": "0bffb03e-9635-508e-b2b4-02a90a538bce",
           "nombre": "Pregunta 11",
           "descripcion": "Et modi quidem reiciendis ex nihil perspiciatis.",
-          "respuestaEsperada": "11"
+          "respuesta": "11"
         },
         {
           "id": "b8b4488d-d2e3-5fc4-8495-fcb5503f64c4",
           "nombre": "Pregunta 12",
           "descripcion": "Ratione rerum nam rerum quia ducimus quo aspernatur est dolore.",
-          "respuestaEsperada": "12"
+          "respuesta": "12"
         }
       ]
     },
@@ -30,13 +30,11 @@
           "id": "8ecccee7-3508-5e0e-99b0-b90c430a61f9",
           "nombre": "Pregunta 22",
           "descripcion": "Recusandae dolorem consequatur eligendi veniam fugiat.",
-          "respuestaEsperada": "22"
+          "respuesta": "22"
         }
       ]
     }
   ],
   "competencia": 2,
-  "tipo": 2,
-  "nota": 10,
-  "vecesRealizadas": 0
+  "tipo": 2
 }

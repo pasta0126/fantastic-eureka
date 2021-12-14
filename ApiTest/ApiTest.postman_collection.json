@@ -26,12 +26,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Alumnos",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Alumnos",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Alumnos"
@@ -47,7 +46,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"nombre\": \"Guillem Garcia\",\r\n  \"descripcion\": \"1 ESO A\"\r\n}",
+							"raw": "{\r\n  \"nombre\": \"Guillem Garcia\",\r\n  \"descripcion\": \"1 ESO A\",\r\n  \"sesiones\": [\r\n    \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n    \"63592c70-c662-46a6-949c-585bbe740685\"\r\n  ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -55,12 +54,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Alumnos",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Alumnos",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Alumnos"
@@ -87,12 +85,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Alumnos/96cd6da5-bbf8-44a0-b14e-f80d54d0eb97",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Alumnos/96cd6da5-bbf8-44a0-b14e-f80d54d0eb97",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Alumnos",
@@ -117,12 +114,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Alumnos/96cd6da5-bbf8-44a0-b14e-f80d54d0eb97",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Alumnos/96cd6da5-bbf8-44a0-b14e-f80d54d0eb97",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Alumnos",
@@ -147,12 +143,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Alumnos/96cd6da5-bbf8-44a0-b14e-f80d54d0eb97",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Alumnos/96cd6da5-bbf8-44a0-b14e-f80d54d0eb97",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Alumnos",
@@ -185,12 +180,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Actividades",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Actividades",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Actividades"
@@ -206,7 +200,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"nombre\": \"Actividad 1\",\r\n  \"descripcion\": \"Quod nihil quas sequi.\",\r\n  \"ejercicios\": [\r\n    {\r\n      \"id\": \"ed0b0564-e817-557d-a852-88bea8f46774\",\r\n      \"nombre\": \"Ejercicio 1\",\r\n      \"descripcion\": \"Adipisci ut voluptas.\",\r\n      \"preguntas\": [\r\n        {\r\n          \"id\": \"20e7cda2-7b0f-5dc3-a03b-6bb5c52cf30b\",\r\n          \"nombre\": \"Pregunta 1\",\r\n          \"descripcion\": \"Voluptatem aliquid nobis dolorem magni.\",\r\n          \"respuestaEsperada\": \"1\"\r\n        },\r\n        {\r\n          \"id\": \"da8213fb-2799-545a-bc16-a16b47c0d99f\",\r\n          \"nombre\": \"Pregunta 2\",\r\n          \"descripcion\": \"Nobis et quia perspiciatis labore voluptas dolor ut cupiditate aut.\",\r\n          \"respuestaEsperada\": \"2\"\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"id\": \"4635fd0d-4713-5d0b-ace4-18541f6bb493\",\r\n      \"nombre\": \"Ejercicio 2\",\r\n      \"descripcion\": \"Adipisci ut voluptas.\",\r\n      \"preguntas\": [\r\n        {\r\n          \"id\": \"ea24a7bc-c1f4-5164-9204-d466600f128a\",\r\n          \"nombre\": \"Pregunta A\",\r\n          \"descripcion\": \"Qui ducimus sint.\",\r\n          \"respuestaEsperada\": \"A\"\r\n        },\r\n        {\r\n          \"id\": \"84831a34-839d-5295-b27e-a91c570c8fb0\",\r\n          \"nombre\": \"Pregunta B\",\r\n          \"descripcion\": \"Repellat aut exercitationem consequatur qui culpa quia sint quis quidem.\",\r\n          \"respuestaEsperada\": \"B\"\r\n        },\r\n        {\r\n          \"id\": \"ec8ed341-96ab-5ecc-96a7-7a16748a113b\",\r\n          \"nombre\": \"Pregunta C\",\r\n          \"descripcion\": \"Facere quo et sapiente inventore.\",\r\n          \"respuestaEsperada\": \"C\"\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"competencia\": 1,\r\n  \"tipo\": 0,\r\n  \"nota\": 10,\r\n  \"vecesRealizadas\": 0\r\n}\r\n",
+							"raw": "{\r\n  \"nombre\": \"Actividad 1\",\r\n  \"descripcion\": \"Quod nihil quas sequi.\",\r\n  \"ejercicios\": [\r\n    {\r\n      \"id\": \"ed0b0564-e817-557d-a852-88bea8f46774\",\r\n      \"nombre\": \"Ejercicio 1\",\r\n      \"descripcion\": \"Adipisci ut voluptas.\",\r\n      \"preguntas\": [\r\n        {\r\n          \"id\": \"20e7cda2-7b0f-5dc3-a03b-6bb5c52cf30b\",\r\n          \"nombre\": \"Pregunta 1\",\r\n          \"descripcion\": \"Voluptatem aliquid nobis dolorem magni.\",\r\n          \"respuesta\": \"1\"\r\n        },\r\n        {\r\n          \"id\": \"da8213fb-2799-545a-bc16-a16b47c0d99f\",\r\n          \"nombre\": \"Pregunta 2\",\r\n          \"descripcion\": \"Nobis et quia perspiciatis labore voluptas dolor ut cupiditate aut.\",\r\n          \"respuesta\": \"2\"\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"id\": \"4635fd0d-4713-5d0b-ace4-18541f6bb493\",\r\n      \"nombre\": \"Ejercicio 2\",\r\n      \"descripcion\": \"Adipisci ut voluptas.\",\r\n      \"preguntas\": [\r\n        {\r\n          \"id\": \"ea24a7bc-c1f4-5164-9204-d466600f128a\",\r\n          \"nombre\": \"Pregunta A\",\r\n          \"descripcion\": \"Qui ducimus sint.\",\r\n          \"respuesta\": \"A\"\r\n        },\r\n        {\r\n          \"id\": \"84831a34-839d-5295-b27e-a91c570c8fb0\",\r\n          \"nombre\": \"Pregunta B\",\r\n          \"descripcion\": \"Repellat aut exercitationem consequatur qui culpa quia sint quis quidem.\",\r\n          \"respuesta\": \"B\"\r\n        },\r\n        {\r\n          \"id\": \"ec8ed341-96ab-5ecc-96a7-7a16748a113b\",\r\n          \"nombre\": \"Pregunta C\",\r\n          \"descripcion\": \"Facere quo et sapiente inventore.\",\r\n          \"respuesta\": \"C\"\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"competencia\": 1,\r\n  \"tipo\": 0\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -214,12 +208,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Actividades",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Actividades",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Actividades"
@@ -246,12 +239,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Actividades/5d6c36e3-ac6b-48b1-8a5d-9319ddcb76c0",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Actividades/5d6c36e3-ac6b-48b1-8a5d-9319ddcb76c0",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Actividades",
@@ -268,7 +260,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"nombre\": \"Actividad 2\",\r\n  \"descripcion\": \"Nostrum officiis unde ut architecto provident.\",\r\n  \"ejercicios\": [\r\n    {\r\n      \"id\": \"643b036f-0a78-54ef-a732-48fc9c6ce343\",\r\n      \"nombre\": \"Ejercicio 1\",\r\n      \"descripcion\": \"In qui iste rerum quo.\",\r\n      \"preguntas\": [\r\n        {\r\n          \"id\": \"0bffb03e-9635-508e-b2b4-02a90a538bce\",\r\n          \"nombre\": \"Pregunta 11\",\r\n          \"descripcion\": \"Et modi quidem reiciendis ex nihil perspiciatis.\",\r\n          \"respuestaEsperada\": \"11\"\r\n        },\r\n        {\r\n          \"id\": \"b8b4488d-d2e3-5fc4-8495-fcb5503f64c4\",\r\n          \"nombre\": \"Pregunta 12\",\r\n          \"descripcion\": \"Ratione rerum nam rerum quia ducimus quo aspernatur est dolore.\",\r\n          \"respuestaEsperada\": \"12\"\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"competencia\": 2,\r\n  \"tipo\": 2,\r\n  \"nota\": 10,\r\n  \"vecesRealizadas\": 0\r\n}\r\n",
+							"raw": "{\r\n  \"nombre\": \"Actividad 2\",\r\n  \"descripcion\": \"Nostrum officiis unde ut architecto provident.\",\r\n  \"ejercicios\": [\r\n    {\r\n      \"id\": \"643b036f-0a78-54ef-a732-48fc9c6ce343\",\r\n      \"nombre\": \"Ejercicio 1\",\r\n      \"descripcion\": \"In qui iste rerum quo.\",\r\n      \"preguntas\": [\r\n        {\r\n          \"id\": \"0bffb03e-9635-508e-b2b4-02a90a538bce\",\r\n          \"nombre\": \"Pregunta 11\",\r\n          \"descripcion\": \"Et modi quidem reiciendis ex nihil perspiciatis.\",\r\n          \"respuesta\": \"11\"\r\n        },\r\n        {\r\n          \"id\": \"b8b4488d-d2e3-5fc4-8495-fcb5503f64c4\",\r\n          \"nombre\": \"Pregunta 12\",\r\n          \"descripcion\": \"Ratione rerum nam rerum quia ducimus quo aspernatur est dolore.\",\r\n          \"respuesta\": \"12\"\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"competencia\": 2,\r\n  \"tipo\": 2\r\n  }\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -276,12 +268,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Actividades/5d6c36e3-ac6b-48b1-8a5d-9319ddcb76c0",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Actividades/5d6c36e3-ac6b-48b1-8a5d-9319ddcb76c0",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Actividades",
@@ -306,16 +297,48 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:43657/api/Actividades/0b680e2b-dcf0-43aa-9f4c-e905ca56bf8f",
-							"protocol": "http",
+							"raw": "{{UrlBase}}:{{Port}}/api/Actividades/0b680e2b-dcf0-43aa-9f4c-e905ca56bf8f",
 							"host": [
-								"localhost"
+								"{{UrlBase}}"
 							],
-							"port": "43657",
+							"port": "{{Port}}",
 							"path": [
 								"api",
 								"Actividades",
 								"0b680e2b-dcf0-43aa-9f4c-e905ca56bf8f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sesion",
+			"item": [
+				{
+					"name": "Post Sesion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": \"554aa91d-f271-54bb-9932-acf2316ed9ed\",\r\n  \"idAlumno\": \"29385a3d-7242-5d2d-ae9c-d8bf37d7f8c5\",\r\n  \"actividades\": [\r\n    {\r\n      \"idActividad\": \"c7de8362-1812-5652-965b-8cd2b46c5e89\",\r\n      \"competencia\": 1,\r\n      \"tipo\": 0,\r\n      \"respuestas\": [\r\n        {\r\n          \"idPregunta\": \"20e7cda2-7b0f-5dc3-a03b-6bb5c52cf30b\",\r\n          \"respuestaEsperada\": \"1\",\r\n          \"respuestaProporcionada\": \"1\",\r\n          \"isOk\": true\r\n        },\r\n        {\r\n          \"idPregunta\": \"da8213fb-2799-545a-bc16-a16b47c0d99f\",\r\n          \"respuestaEsperada\": \"2\",\r\n          \"respuestaProporcionada\": \"1\",\r\n          \"isOk\": false\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{UrlBase}}:{{Port}}/api/Sesiones",
+							"host": [
+								"{{UrlBase}}"
+							],
+							"port": "{{Port}}",
+							"path": [
+								"api",
+								"Sesiones"
 							]
 						}
 					},

@@ -10,7 +10,7 @@ namespace ApiTest.Repositories
         Task<IEnumerable<ActividadModel>> GetAllActividades();
         Task<ActividadModel> GetActividad(Guid id);
         Task<ActividadModel> Create(ActividadModel model);
-        Task<bool> Update(ActividadModel todo);
+        Task<bool> Update(ActividadModel model);
         Task<bool> Delete(Guid id);
         Guid GetNewActividadId();
     }

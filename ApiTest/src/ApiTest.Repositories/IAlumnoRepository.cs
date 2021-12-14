@@ -10,7 +10,7 @@ namespace ApiTest.Repositories
         Task<IEnumerable<AlumnoModel>> GetAllAlumnos();
         Task<AlumnoModel> GetAlumno(Guid id);
         Task<AlumnoModel> Create(AlumnoModel model);
-        Task<bool> Update(AlumnoModel todo);
+        Task<bool> Update(AlumnoModel model);
         Task<bool> Delete(Guid id);
         Guid GetNewAlumnoId();
     }

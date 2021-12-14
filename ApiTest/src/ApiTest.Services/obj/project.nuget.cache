@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "gYb7WF86BWfaBt+TUaDnSHeLtNfLhaTUeHJg6l15x4xHNhYP7x1c5NgDbchBJVOTExl88OqfDvZvusD8HI12iA==",
+  "dgSpecHash": "afO+ddbBDMEWCUpaRKupt+o2rzKfm33anhAnt7/dLgpBsuNzjCn9oqX9UEyn2tq5t8ggdzPTOdy9kR3MXkC4AA==",
   "success": true,
   "projectFilePath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Services\\ApiTest.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pasta0126\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
+    "C:\\Users\\pasta0126\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
+    "C:\\Users\\pasta0126\\.nuget\\packages\\mongodb.driver\\2.14.1\\mongodb.driver.2.14.1.nupkg.sha512",
+    "C:\\Users\\pasta0126\\.nuget\\packages\\mongodb.driver.core\\2.14.1\\mongodb.driver.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\pasta0126\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "C:\\Users\\pasta0126\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\pasta0126\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\pasta0126\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

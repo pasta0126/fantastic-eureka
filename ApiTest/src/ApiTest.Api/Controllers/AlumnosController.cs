@@ -37,6 +37,12 @@ namespace ApiTest.Api.Controllers
             return new ObjectResult(alumno);
         }
 
+        [HttpGet("{idAlumno}/Sesiones/{idSesion}/Actividades/{idActividad}")]
+        public async Task<ActionResult<AlumnoModel>> GetNotaActividad(Guid idAlumno, Guid idSesion, Guid idActividad)
+        {
+            throw new NotImplementedException();
+        }
+
         [HttpPost]
         public async Task<ActionResult<AlumnoModel>> Post([FromBody] AlumnoModel model)
         {
@@ -45,6 +51,12 @@ namespace ApiTest.Api.Controllers
             var modelResult = await _repo.Create(model);
 
             return new OkObjectResult(modelResult);
+        }
+
+        [HttpPost("{idAlumno}/Actividades/{idActividad}/Respuestas")]
+        public async Task<ActionResult<AlumnoModel>> PostRespuestasAlumno(Guid idAlumno, Guid idActividad, [FromBody] AlumnoModel model)
+        {
+            throw new NotImplementedException();
         }
 
         [HttpPut("{id}")]

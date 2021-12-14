@@ -33,6 +33,10 @@ namespace ApiTest.Api
             var actividadRepo = new ActividadRepository(actividadContext);
             services.AddSingleton<IActividadRepository>(actividadRepo);
 
+            var sesionContext = new SesionContext(config.MongoDB);
+            var sesionRepo = new SesionRepository(sesionContext);
+            services.AddSingleton<ISesionRepository>(sesionRepo);
+
             services.AddControllers();
 
             services.AddSwaggerGen();
@@ -43,12 +47,12 @@ namespace ApiTest.Api
         {
             if (env.IsDevelopment())
             {
+                var option = new RewriteOptions();
+                option.AddRedirect("^$", "swagger");
+                app.UseRewriter(option);
+
                 app.UseDeveloperExceptionPage();
             }
-
-            var option = new RewriteOptions();
-            option.AddRedirect("^$", "swagger");
-            app.UseRewriter(option);
 
             app.UseSwagger(c =>
             {
