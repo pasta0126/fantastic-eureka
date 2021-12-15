@@ -3,6 +3,8 @@ using ApiTest.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace ApiTest.Api.Controllers
@@ -41,6 +43,11 @@ namespace ApiTest.Api.Controllers
         public async Task<ActionResult<ActividadModel>> Post([FromBody] ActividadModel model)
         {
             model.Id = _repo.GetNewActividadId();
+
+            if (!Validate(model, out var results))
+            {
+                return JsonError("Error", results);
+            }
 
             var modelResult = await _repo.Create(model);
 
@@ -81,7 +88,7 @@ namespace ApiTest.Api.Controllers
             }
 
             var response = await _repo.Delete(id);
-            
+
             if (response)
             {
                 return new OkResult();
@@ -89,6 +96,18 @@ namespace ApiTest.Api.Controllers
 
             return new BadRequestResult();
 
+        }
+
+        private bool Validate<T>(T obj, out ICollection<ValidationResult> results)
+        {
+            results = new List<ValidationResult>();
+
+            return Validator.TryValidateObject(obj, new ValidationContext(obj), results, true);
+        }
+
+        private JsonResult JsonError(string status, ICollection<ValidationResult> messages)
+        {
+            return new JsonResult(new { status = status, messages = messages.Select(o => o.ErrorMessage).ToList() });
         }
     }
 }
