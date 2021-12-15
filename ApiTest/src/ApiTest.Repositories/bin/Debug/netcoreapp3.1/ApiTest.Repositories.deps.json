@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "ApiTest.Repositories/1.0.0": {
         "dependencies": {
-          "ApiTest.Models": "1.0.0"
+          "ApiTest.Models": "1.0.0",
+          "ApiTest.Services": "1.0.0"
         },
         "runtime": {
           "ApiTest.Repositories.dll": {}
@@ -147,6 +148,14 @@
         "runtime": {
           "ApiTest.Models.dll": {}
         }
+      },
+      "ApiTest.Services/1.0.0": {
+        "dependencies": {
+          "ApiTest.Models": "1.0.0"
+        },
+        "runtime": {
+          "ApiTest.Services.dll": {}
+        }
       }
     }
   },
@@ -213,6 +222,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
     },
     "ApiTest.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiTest.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

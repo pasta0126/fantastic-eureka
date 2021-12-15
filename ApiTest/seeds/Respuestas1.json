@@ -1,0 +1,21 @@
+[
+  {
+    "idActividad": "643b036f-0a78-54ef-a732-48fc9c6ce343",
+    "competencia": 2,
+    "tipo": 2,
+    "respuestas": [
+      {
+        "idPregunta": "0bffb03e-9635-508e-b2b4-02a90a538bce",
+        "respuestaEsperada": "11",
+        "respuestaProporcionada": "11",
+        "isOk": true
+      },
+      {
+        "idPregunta": "b8b4488d-d2e3-5fc4-8495-fcb5503f64c4",
+        "respuestaEsperada": "12",
+        "respuestaProporcionada": "11",
+        "isOk": false
+      }
+    ]
+  }
+]

@@ -241,13 +241,27 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "ApiTest.Models": "1.0.0"
+          "ApiTest.Models": "1.0.0",
+          "ApiTest.Services": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ApiTest.Repositories.dll": {}
         },
         "runtime": {
           "bin/placeholder/ApiTest.Repositories.dll": {}
+        }
+      },
+      "ApiTest.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ApiTest.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApiTest.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiTest.Services.dll": {}
         }
       }
     }
@@ -613,6 +627,11 @@
       "type": "project",
       "path": "../ApiTest.Repositories/ApiTest.Repositories.csproj",
       "msbuildProject": "../ApiTest.Repositories/ApiTest.Repositories.csproj"
+    },
+    "ApiTest.Services/1.0.0": {
+      "type": "project",
+      "path": "../ApiTest.Services/ApiTest.Services.csproj",
+      "msbuildProject": "../ApiTest.Services/ApiTest.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -683,6 +702,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.22, 3.1.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -691,7 +716,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

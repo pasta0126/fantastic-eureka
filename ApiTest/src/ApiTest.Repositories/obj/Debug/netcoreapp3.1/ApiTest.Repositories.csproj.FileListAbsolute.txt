@@ -11,3 +11,5 @@ D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcore
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.csproj.CopyComplete
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.dll
 D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\obj\Debug\netcoreapp3.1\ApiTest.Repositories.pdb
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\bin\Debug\netcoreapp3.1\ApiTest.Services.dll
+D:\projectes\fantastic-eureka\ApiTest\src\ApiTest.Repositories\bin\Debug\netcoreapp3.1\ApiTest.Services.pdb

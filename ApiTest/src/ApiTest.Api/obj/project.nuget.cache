@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qvluu0+O+Fp+PONHI6DM/4CS6jt44U1ne/qCJDzI4Nw0UIrGbHLCYXM7nILmbE4/U2bVN3y+arKbBpqgwlEI2A==",
+  "dgSpecHash": "P61Eh2FfLnq9mCJ40ICWae7f0YCswzlXNGatRESgSjE5K7ObjWbmaz1wfbDmk2ox1SeN+jKeVd9iqWLz6FzgqQ==",
   "success": true,
   "projectFilePath": "D:\\projectes\\fantastic-eureka\\ApiTest\\src\\ApiTest.Api\\ApiTest.Api.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\pasta0126\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\pasta0126\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\pasta0126\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\pasta0126\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\pasta0126\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\pasta0126\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
   ],
   "logs": []
 }

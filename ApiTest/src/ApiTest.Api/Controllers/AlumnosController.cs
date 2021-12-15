@@ -1,8 +1,10 @@
-﻿using ApiTest.Models;
+﻿using ApiTest.Api.Dtos;
+using ApiTest.Models;
 using ApiTest.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace ApiTest.Api.Controllers
@@ -11,23 +13,25 @@ namespace ApiTest.Api.Controllers
     [Route("api/[Controller]")]
     public class AlumnosController : ControllerBase
     {
-        private readonly IAlumnoRepository _repo;
+        private readonly IAlumnoRepository _alumnoRepo;
+        private readonly ISesionRepository _sesionRepo;
 
-        public AlumnosController(IAlumnoRepository repo)
+        public AlumnosController(IAlumnoRepository alumnoRepo, ISesionRepository sesionRepo)
         {
-            _repo = repo;
+            _alumnoRepo = alumnoRepo;
+            _sesionRepo = sesionRepo;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AlumnoModel>>> GetAll()
         {
-            return new ObjectResult(await _repo.GetAllAlumnos());
+            return new ObjectResult(await _alumnoRepo.GetAllAlumnos());
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<AlumnoModel>> Get(Guid id)
         {
-            var alumno = await _repo.GetAlumno(id);
+            var alumno = await _alumnoRepo.GetAlumno(id);
 
             if (alumno == null)
             {
@@ -37,32 +41,76 @@ namespace ApiTest.Api.Controllers
             return new ObjectResult(alumno);
         }
 
-        [HttpGet("{idAlumno}/Sesiones/{idSesion}/Actividades/{idActividad}")]
-        public async Task<ActionResult<AlumnoModel>> GetNotaActividad(Guid idAlumno, Guid idSesion, Guid idActividad)
+        [HttpGet("{idAlumno}/Sesiones/{idSesion}")]
+        public async Task<ActionResult<List<NotaDto>>> GetNotaActividad(Guid idAlumno, Guid idSesion)
         {
-            throw new NotImplementedException();
+            var result = new List<NotaDto>();
+            var sesion = await _sesionRepo.GetSesion(idSesion);
+
+            foreach (var actividad in sesion.Actividades)
+            {
+                var nota = _sesionRepo.EvaluacionPorActividades(sesion.Actividades);
+                var vecesRealizada = sesion.Actividades.Where(w => w.IdActividad == actividad.IdActividad).Count();
+
+                result.Add(new NotaDto()
+                {
+                    IdActividad = actividad.IdActividad,
+                    Nota = nota,
+                    VecesRealzada = vecesRealizada,
+                });
+            }
+
+            return result;
         }
 
         [HttpPost]
         public async Task<ActionResult<AlumnoModel>> Post([FromBody] AlumnoModel model)
         {
-            model.Id = _repo.GetNewAlumnoId();
+            model.Id = _alumnoRepo.GetNewAlumnoId();
 
-            var modelResult = await _repo.Create(model);
+            var modelResult = await _alumnoRepo.Create(model);
 
             return new OkObjectResult(modelResult);
         }
 
         [HttpPost("{idAlumno}/Actividades/{idActividad}/Respuestas")]
-        public async Task<ActionResult<AlumnoModel>> PostRespuestasAlumno(Guid idAlumno, Guid idActividad, [FromBody] AlumnoModel model)
+        public async Task<ActionResult<SesionModel>> PostRespuestasAlumno(Guid idAlumno, Guid idActividad, [FromBody] List<ActividadSesionDto> model)
         {
-            throw new NotImplementedException();
+            var actividades = new List<ActividadSesionModel>();
+
+            foreach (var item in model)
+            {
+                var targetList = item.Respuestas.Select(x => new RespuestaModel()
+                {
+                    IdPregunta = x.IdPregunta,
+                    IsOk = x.IsOk,
+                    RespuestaEsperada = x.RespuestaEsperada,
+                    RespuestaProporcionada = x.RespuestaProporcionada,
+                }).ToList();
+
+                actividades.Add(new ActividadSesionModel()
+                {
+                    Competencia = item.competencia,
+                    IdActividad = item.IdActividad,
+                    Respuestas = targetList,
+                    Tipo = item.Tipo,
+                });
+            }
+
+            var sesion = new SesionModel()
+            {
+                Actividades = actividades,
+                Id = _sesionRepo.GetNewSesionId(),
+                IdAlumno = idAlumno,
+            };
+
+            return await _sesionRepo.Create(sesion);
         }
 
         [HttpPut("{id}")]
         public async Task<ActionResult<AlumnoModel>> Put(Guid id, [FromBody] AlumnoModel model)
         {
-            var modelFromDb = await _repo.GetAlumno(id);
+            var modelFromDb = await _alumnoRepo.GetAlumno(id);
 
             if (modelFromDb == null)
             {
@@ -72,7 +120,7 @@ namespace ApiTest.Api.Controllers
             model.Id = modelFromDb.Id;
             model.InternalId = modelFromDb.InternalId;
 
-            var response = await _repo.Update(model);
+            var response = await _alumnoRepo.Update(model);
 
             if (response)
             {
@@ -85,15 +133,15 @@ namespace ApiTest.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            var post = await _repo.GetAlumno(id);
+            var post = await _alumnoRepo.GetAlumno(id);
 
             if (post == null)
             {
                 return new NotFoundResult();
             }
 
-            var response = await _repo.Delete(id);
-            
+            var response = await _alumnoRepo.Delete(id);
+
             if (response)
             {
                 return new OkResult();

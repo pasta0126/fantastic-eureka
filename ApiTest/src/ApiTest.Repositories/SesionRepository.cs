@@ -1,5 +1,6 @@
 ﻿using ApiTest.Models;
 using ApiTest.Models.Context;
+using ApiTest.Services;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -10,10 +11,13 @@ namespace ApiTest.Repositories
     public class SesionRepository : ISesionRepository
     {
         private readonly ISesionContext _context;
+        private readonly IActividadSesionService _service;
 
         public SesionRepository(ISesionContext context)
         {
             _context = context;
+
+            _service = new ActividadSesionService();
         }
 
         public async Task<SesionModel> Create(SesionModel model)
@@ -50,6 +54,21 @@ namespace ApiTest.Repositories
                 replacement: model);
 
             return result.IsAcknowledged && result.ModifiedCount > 0;
+        }
+
+        public void GetActividades()
+        {
+
+        }
+
+        public double EvaluacionPorActividades(List<ActividadSesionModel> actividades)
+        {
+            return _service.EvaluacionPorActividades(actividades);
+        }
+
+        public double EvaluacionPorCompetencias(List<ActividadSesionModel> actividades)
+        {
+            return _service.EvaluacionPorCompetencias(actividades);
         }
     }
 }

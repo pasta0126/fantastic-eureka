@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "seeds", "seeds", "{812138D2
 	ProjectSection(SolutionItems) = preProject
 		seeds\Actividad1.json = seeds\Actividad1.json
 		seeds\Actividad2.json = seeds\Actividad2.json
+		seeds\Alumno1.json = seeds\Alumno1.json
+		seeds\Sesion1.json = seeds\Sesion1.json
 	EndProjectSection
 EndProject
 Global

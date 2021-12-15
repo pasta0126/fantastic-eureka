@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApiTest.Models\ApiTest.Models.csproj" />
+    <ProjectReference Include="..\ApiTest.Services\ApiTest.Services.csproj" />
   </ItemGroup>
 
 </Project>
