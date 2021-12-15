@@ -50,7 +50,12 @@
       "ProjectGuid": "812138d2-e861-4723-ac0b-57d7f2a7177a",
       "DisplayName": "seeds",
       "ColorIndex": 8
+    },
+    "292abfd4-3c6d-4f22-bb32-05350d97851a": {
+      "ProjectGuid": "292abfd4-3c6d-4f22-bb32-05350d97851a",
+      "DisplayName": "ApiTest.Tests",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

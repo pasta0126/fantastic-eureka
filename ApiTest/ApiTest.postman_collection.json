@@ -156,6 +156,72 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Respuestas Alumno",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"idActividad\": \"643b036f-0a78-54ef-a732-48fc9c6ce343\",\r\n    \"competencia\": 2,\r\n    \"tipo\": 2,\r\n    \"respuestas\": [\r\n      {\r\n        \"idPregunta\": \"0bffb03e-9635-508e-b2b4-02a90a538bce\",\r\n        \"respuestaEsperada\": \"11\",\r\n        \"respuestaProporcionada\": \"11\",\r\n        \"isOk\": true\r\n      },\r\n      {\r\n        \"idPregunta\": \"b8b4488d-d2e3-5fc4-8495-fcb5503f64c4\",\r\n        \"respuestaEsperada\": \"12\",\r\n        \"respuestaProporcionada\": \"11\",\r\n        \"isOk\": false\r\n      }\r\n    ]\r\n  }\r\n]\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{UrlBase}}:{{Port}}/api/Alumnos/d539d325-442a-4b28-855d-0e050aa471ce/Actividades/4defa662-0f8a-4849-b1c0-536471bb0ca0/Respuestas",
+							"host": [
+								"{{UrlBase}}"
+							],
+							"port": "{{Port}}",
+							"path": [
+								"api",
+								"Alumnos",
+								"d539d325-442a-4b28-855d-0e050aa471ce",
+								"Actividades",
+								"4defa662-0f8a-4849-b1c0-536471bb0ca0",
+								"Respuestas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sesion Alumno",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{UrlBase}}:{{Port}}/api/Alumnos/29385a3d-7242-5d2d-ae9c-d8bf37d7f8c5/Sesiones/5140c060-58c8-4d2d-a1b6-d6fb4e20dad3",
+							"host": [
+								"{{UrlBase}}"
+							],
+							"port": "{{Port}}",
+							"path": [
+								"api",
+								"Alumnos",
+								"29385a3d-7242-5d2d-ae9c-d8bf37d7f8c5",
+								"Sesiones",
+								"5140c060-58c8-4d2d-a1b6-d6fb4e20dad3"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
